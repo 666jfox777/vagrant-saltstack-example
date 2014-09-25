@@ -1,0 +1,8 @@
+fileserver_backend:
+  - roots
+  - git
+
+gitfs_remotes:
+  - https://github.com/666jfox777/saltstack-erlang-formula.git
+  - https://github.com/666jfox777/saltstack-rabbitmq-formula.git
+  - https://github.com/666jfox777/saltstack-sensu-formula.git
