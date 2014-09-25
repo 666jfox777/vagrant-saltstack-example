@@ -4,9 +4,9 @@ SaltStack Example
 This GitHub repository provides several different examples for the configuration
 and typical usage of the configuration management software 'salt' by SaltStack.
 
-The SaltStack team provide a walkthrough here: http://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html
+The SaltStack team provides a walkthrough here: http://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html
 
-This example focuses more on the practical hands on approach. Using Vagrant and
+This example focuses on a more practical hands on approach. Using Vagrant and
 the provided Vagrantfile, you can quickly get start learning about salt.
 Currently the Vagrantfile in this repository will set up three systems (master,
 client1, client2) with salt. The vagrantfile will also configure virtualbox to
