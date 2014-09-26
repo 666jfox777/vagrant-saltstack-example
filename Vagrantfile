@@ -41,7 +41,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     server.vm.provision "shell", inline: "echo '192.168.250.100 salt' >> /etc/hosts"
     server.vm.provision "shell", inline: "yum install salt-minion -y"
     server.vm.provision "shell", inline: "chkconfig salt-minion on"
-    server.vm.provision "shell", inline: "echo 'master' >> /etc/salt/minion_id"
+    server.vm.provision "shell", inline: "echo 'client1' >> /etc/salt/minion_id"
     server.vm.provision "shell", inline: "service salt-minion start"
   end
 
@@ -54,7 +54,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     server.vm.provision "shell", inline: "echo '192.168.250.100 salt' >> /etc/hosts"
     server.vm.provision "shell", inline: "yum install salt-minion -y"
     server.vm.provision "shell", inline: "chkconfig salt-minion on"
-    server.vm.provision "shell", inline: "echo 'master' >> /etc/salt/minion_id"
+    server.vm.provision "shell", inline: "echo 'client2' >> /etc/salt/minion_id"
     server.vm.provision "shell", inline: "service salt-minion start"
   end
 end

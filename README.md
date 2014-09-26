@@ -37,6 +37,47 @@ To remove the example:
 
 ### Tutorial (Sort of)
 
+First up is a bit of an explanation about what Salt is, and why it's so awesome.
+Salt was originally designed for high-speed communication (aka remote execution)
+with large numbers of systems. It then took the next logical step and became a
+configuration management utility founded on the same principle of fast
+communication.
+
+So at it's core Salt is a remote execution engine, that establishes a
+high-speed, secure and bi-directional communication grid for groups of systems.
+Then on top of that, Salt provides an extremely fast, flexible and easy-to-use
+configuration management system.
+
+What I love most about Salt is how easy it is to use as a configuration
+management tool. The configuration files are written in yaml (you'll see
+examples soon) and Salt provides many options for templating with jinja (amongst
+other engines). It's relatively simple to look at your files and know exactly
+what's going on.
+
+So this sort of tutorial is going to cover a few key concepts:
+
+- Remote Execution
+- Basic Configuration Management
+- Better Configuration Management
+- Advanced Configuration Management
+
+All of the steps included in this tutorial should be executed on the included
+'master' server. Aka, `vagrant ssh master`.
+
+#### Remote Execution
+
+TODO
+
+#### Basic Configuration Management
+
+TODO
+
+#### Better Configuration Management
+
+TODO
+
+#### Advanced Configuration Management
+
 TODO
 
 ### Disclaimer
