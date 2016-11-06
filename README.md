@@ -66,19 +66,25 @@ All of the steps included in this tutorial should be executed on the included
 
 #### Remote Execution
 
-TODO
+Configuring basic remote execution with a client-server architecture: [here](https://justinfox.me/articles/saltstack-remote-execution)
 
 #### Basic Configuration Management
 
-TODO
+Configuring basic configuration management with a client-server architecture: [here](https://justinfox.me/articles/saltstack-building-client-server)
 
 #### Better Configuration Management
 
-TODO
+Easy client configuration management (no master required!): [here](https://justinfox.me/articles/saltstack-masterless)
 
 #### Advanced Configuration Management
 
-TODO
+Create Salt Modules to tackle common tasks: [here](https://justinfox.me/articles/saltstack-build-your-own-module)
+
+Deploying a Node.js application as a service: [here](https://justinfox.me/articles/nodejs-init-script-with-saltstack)
+
+Using Salt-Cloud in AWS EC2: [here](https://justinfox.me/articles/saltstack-saltcloud-with-aws)
+
+Salt Reactor System: [here](https://justinfox.me/articles/saltstack-react-to-events)
 
 ### Disclaimer
 
